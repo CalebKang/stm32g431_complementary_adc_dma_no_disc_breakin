@@ -142,7 +142,7 @@ int main(void)
 			}
 		}
 		LL_mDelay(50);
-		
+#if 0
     if(LL_TIM_IsActiveFlag_BRK(TIM8) == 0)
     {
 			if(LL_TIM_IsEnabledIT_BRK(TIM8) == 0)
@@ -150,6 +150,7 @@ int main(void)
         LL_TIM_EnableIT_BRK(TIM8);
 			}
     }
+#endif
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
